@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.CifradosClasicosTest" tests="71" skipped="0" failures="0" errors="0" timestamp="2026-10-09T03:24:16" hostname="LAPTOP-RHUNQJLR" time="4.903">
+  <properties/>
+  <testcase name="cesar: casa con 3 da fdvd" classname="taller.CifradosClasicosTest" time="0.037"/>
+  <testcase name="cesar: fdvd con -3 vuelve a casa" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: hola mundo con 1" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: zzz con 1 da aaa" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesar: 29 es lo mismo que 3" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: el mensaje vacío sale vacío" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesar: la puntuación y los dígitos pasan sin cambio" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: las mayúsculas no se cifran" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesar: cifrar y descifrar es la identidad" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: una sola letra con k grande da la vuelta completa sin fallar" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesar: k negativo grande equivale a su módulo respectivamente" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesar: todos los caracteres que no son letras minusculas pasan intactos sin problema" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesar: el resultado tiene la misma longitud que la entrada" classname="taller.CifradosClasicosTest" time="0.002"/>
+  <testcase name="cesar: cifrar con 0 no modifica el mensaje" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: casa con 3 da fdvd" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: hola mundo con 1" classname="taller.CifradosClasicosTest" time="0.002"/>
+  <testcase name="cesarCola: con 0 el mensaje no cambia" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="cesarCola: da lo mismo que la versión lineal" classname="taller.CifradosClasicosTest" time="0.003"/>
+  <testcase name="cesarCola: aguanta un mensaje largo sin desbordar la pila" classname="taller.CifradosClasicosTest" time="4.748"/>
+  <testcase name="cesarCola: coincide con cesar para k negativo grande" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: cadena de solo símbolos no cambia" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: cadena de solo mayúsculas no cambia" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: mantiene la longitud en un mensaje mixto" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="cesarCola: es idempotente al cifrar y descifrar con k grande" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: casa" classname="taller.CifradosClasicosTest" time="0.009"/>
+  <testcase name="frecuencias: aabbbc" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="frecuencias: hola mundo" classname="taller.CifradosClasicosTest" time="0.006"/>
+  <testcase name="frecuencias: el mensaje vacío no tiene letras" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: un mensaje sin letras no tiene frecuencias" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: en empate manda el orden alfabético" classname="taller.CifradosClasicosTest" time="0.002"/>
+  <testcase name="frecuencias: una sola letra repetida" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="frecuencias: todas las letras distintas quedan alfabéticas" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: mayúsculas y minúsculas no se mezclan" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: empate múltiple se ordena alfabéticamente" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="frecuencias: ignora puntuación, dígitos y espacios" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: h está 3 después de e" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: hhhaa, con h como la más frecuente" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="desplazamientoProbable: sin letras da 0" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: en empate manda la primera alfabéticamente" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="romperCesar: recupera un mensaje con suficientes letras e" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="romperCesar: el método falla cuando la e no es la más frecuente" classname="taller.CifradosClasicosTest" time="0.002"/>
+  <testcase name="desplazamientoProbable: la 'e' más frecuente da 0" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: la 'f' más frecuente da 1" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: la 'a' más frecuente da 22" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: la 'z' más frecuente da 21" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="desplazamientoProbable: sin letras devuelve 0" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="romperCesar: recupera un texto largo con k=1" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="romperCesar: recupera un texto largo con k=13" classname="taller.CifradosClasicosTest" time="0.003"/>
+  <testcase name="romperCesar: mensaje vacío devuelve vacío" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="romperCesar: mensaje sin letras devuelve el mismo mensaje" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="romperCesar: falla cuando la letra dominante no es la 'e'" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: con longitud 0 hay un mensaje, el vacío" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: con longitud 1 hay tantos como letras" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: 3 letras sobre 26 dan 16250" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: 2 letras sobre un alfabeto de 2 dan 2" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: crece según la recurrencia" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="vigenere: ataque con la clave sol" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: hola mundo con la clave ab" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: con la clave vacía el mensaje no cambia" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: el espacio no consume letra de la clave" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: con una clave de una sola letra es un César" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="combinaciones: n=0 devuelve 1 para cualquier alfabeto" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="combinaciones: n=1 devuelve el tamaño del alfabeto" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: n=2, a=26 da 650" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: cumple la recurrencia del taller" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="combinaciones: alfabeto de 1 letra con n&gt;1 da 0" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <testcase name="vigenere: 'abc' con 'xyz'" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: clave de una sola letra se comporta como César" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: mensaje vacío devuelve vacío" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: los dígitos no consumen letra de la clave" classname="taller.CifradosClasicosTest" time="0.001"/>
+  <testcase name="vigenere: las mayúsculas no se cifran ni consumen clave" classname="taller.CifradosClasicosTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
